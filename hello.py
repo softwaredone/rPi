@@ -1,0 +1,7 @@
+print('This program calculates the number of chicken and cows.')
+heads = int(input('How many heads did you count? '))
+legs = int(input('How many legs did you count? '))
+print('Calculating number of chicken and cows with ', heads, ' heads and ', legs, ' legs.....')
+chicken = int(2*heads - (legs/2))
+cows = int(heads - chicken)
+print('You\'ve got ', chicken, ' chicken and ', cows, ' cows.')
